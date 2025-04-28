@@ -5,7 +5,7 @@ Um scanner de portas simples em Python que verifica a acessibilidade de portas c
 
 ## ✨ Visão Geral
 O script faz a varredura de todas as portas (1-65535) de forma rápida com multithreading, detecta serviços conhecidos e aponta vulnerabilidades associadas. </br>
-Os resultados são exibidos no terminal e também salvos em arquivos XML organizados em /var/log/port_scanner.
+Os resultados são exibidos no terminal e também salvos em arquivos XML organizados em /var/log/ScanPort.
 
 ---
 
@@ -15,7 +15,7 @@ Os resultados são exibidos no terminal e também salvos em arquivos XML organiz
 - Indicação de vulnerabilidades conhecidas (Heartbleed, EternalBlue, etc.)
 - Relatórios gerados em:
 - **XML**
-- Salva logs automaticamente em /var/log/port_scanner/
+- Salva logs automaticamente em /var/log/ScanPort/
 - Progressão de varredura exibida no terminal
 
 ---
@@ -28,7 +28,7 @@ Os resultados são exibidos no terminal e também salvos em arquivos XML organiz
 
 # 🕹️ Como Usar 
 ```bash
-sudo python3 portscanner.py
+sudo python3 ScanPort.py
 ```
 
 Você será solicitado a inserir:
